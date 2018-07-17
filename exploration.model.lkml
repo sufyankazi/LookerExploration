@@ -166,6 +166,7 @@ explore: collections {
 
 explore: communities {}
 
+explore: community_statuses {}
 explore: communities_surveys {
   join: surveys {
     type: left_outer
