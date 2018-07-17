@@ -28,6 +28,7 @@ view: community_statuses {
 
   dimension: intake_community_id {
     type: number
+    primary_key: yes
     sql: ${TABLE}.intake_community_id ;;
   }
 
